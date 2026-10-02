@@ -1,78 +1,21 @@
-================================================================================
-PROPOSAL FREELANCER.COM - WEBSITE PORTOFOLIO DENGAN FORMULIR KONTAK
-Project ID: 40745163 | Klien: Kabupaten Garut, Indonesia
-Demo Live  : https://responsive-portfolio-showcase.vercel.app/
-Repository : https://github.com/aeeargdrggdsges/responsive-portfolio-showcase
-================================================================================
-
---------------------------------------------------------------------------------
-BAGIAN 1: PENGATURAN BID (BID SETTINGS)
---------------------------------------------------------------------------------
-Hourly Rate   : $3.00 USD / hour  (Paid to you: $3.00 - $0.30 fee = $2.70)
-Weekly Limit  : 25 Hours
-Upgrades      : TIDAK PERLU dicentang (Hemat budget, proposal personal jauh lebih efektif)
-
-
---------------------------------------------------------------------------------
-BAGIAN 2: "DESCRIBE YOUR PROPOSAL" (SALIN & TEMPEL KE KOTAK PROPOSAL)
-Panjang Karakter: 1.402 Karakter (Sesuai batas: Di bawah 1.500 karakter)
---------------------------------------------------------------------------------
 Halo, salam hangat!
 
-Saya siap membantu Anda membangun website portofolio yang bersih, cepat dimuat (<1 detik), responsif di semua perangkat (HP, tablet, PC), dan terintegrasi formulir kontak langsung ke email Anda.
+Saya siap membangun website portofolio yang bersih, cepat (<1 detik), responsif di semua perangkat (HP/PC), dan terintegrasi formulir kontak langsung ke email Anda.
 
-Contoh Demo Live Siap Pakai:
+Demo Live Siap Pakai:
 👉 https://responsive-portfolio-showcase.vercel.app/
-(Silakan coba langsung galeri interaktif dan formulir kontaknya).
 
 Keunggulan Solusi Ini:
-1. Formulir Kontak Aktif + Anti-Spam: Pesan langsung terkirim ke inbox email Anda (Gmail/domain sendiri) dengan proteksi honeypot anti-spam tanpa biaya bulanan.
-2. Mudah Tambah Proyek: Disertai file data terpusat dan panduan tertulis (Bahasa Indonesia). Anda dapat menambah karya baru dalam 1 menit tanpa koding rumit.
-3. Super Cepat & Ringan: Arsitektur modern tanpa plugin berat, loading instan di jaringan HP.
-4. SEO Dasar: Dilengkapi meta tag Google dan preview rapi saat link dibagikan di WhatsApp.
+1. Formulir Kontak Otomatis: Pesan langsung masuk ke email Anda dengan proteksi anti-spam honeypot (bebas spam, tanpa biaya bulanan).
+2. Sangat Mudah Tambah Proyek: Disertai panduan tertulis Bahasa Indonesia. Tambah karya dalam 1 menit tanpa koding rumit.
+3. Super Cepat & Ringan: Arsitektur modern tanpa plugin berat, loading instan di HP.
+4. Dasar SEO: Lengkap dengan meta tag Google & pratinjau rapi di WhatsApp.
 
-Tahapan Kerja dari Kickoff sampai Live:
-• Hari 1: Kickoff, perumusan struktur, dan pengumpulan karya.
-• Hari 2: Pembuatan layout responsif dan penataan galeri.
-• Hari 3: Integrasi formulir ke email Anda dan optimasi SEO.
-• Hari 4: Uji lintas perangkat, peluncuran online, dan penyerahan panduan ringkas.
+Tahapan Kerja (Estimasi 3 Hari):
+• Hari 1: Kickoff & pengumpulan materi karya.
+• Hari 2: Pembuatan layout responsif & galeri karya.
+• Hari 3: Integrasi formulir ke email, pengujian, & peluncuran situs live + panduan.
 
-Estimasi Pengerjaan: 3 – 4 hari kerja.
 Source Code: https://github.com/aeeargdrggdsges/responsive-portfolio-showcase
 
-Boleh kita diskusikan email tujuan Anda dan apakah Anda sudah memiliki domain sendiri?
-
-
---------------------------------------------------------------------------------
-BAGIAN 3: "WHAT MAKES YOU THE BEST CANDIDATE FOR THIS PROJECT?" (SALIN & TEMPEL)
-Panjang Karakter: 326 Karakter
---------------------------------------------------------------------------------
-Saya fokus memberikan hasil yang bersih, cepat diakses, dan mandiri bagi Anda. Anda tidak hanya menerima website portofolio yang elegan dan responsif, tetapi juga formulir kontak teruji anti-spam serta panduan tertulis ringkas berbahasa Indonesia agar Anda dapat menambah karya baru kapan saja tanpa ketergantungan pada developer.
-
-
---------------------------------------------------------------------------------
-BAGIAN 4: PERTANYAAN UNTUK CLARIFICATION BOARD (BOARD DISKUSI)
---------------------------------------------------------------------------------
-Halo! Apakah Anda sudah memiliki domain dan hosting sendiri, atau Anda ingin saya pandu untuk opsi hosting cepat gratis (seperti Vercel) yang siap pakai?
-
-
---------------------------------------------------------------------------------
-BAGIAN 5: CARA MENGATASI BANNER GSTIN DI FREELANCER (UNTUK FREELANCER INDIA)
---------------------------------------------------------------------------------
-1. Klik tautan "Update your GSTIN" di banner atas, atau buka menu:
-   Profile Picture -> Settings -> Tax Information.
-2. Pilih Negara: India.
-3. Jika penghasilan tahunan Anda di bawah Rs 20 Lakhs, Anda TIDAK WAJIB memiliki GST:
-   - Cukup masukkan nomor Kartu PAN Anda.
-   - Pada status registrasi GST, pilih opsi "Individual / Not Registered".
-   - Menyimpan nomor PAN akan memastikan pemotongan TDS sesuai aturan dan banner merah akan hilang.
-4. Jika sudah memiliki 15 digit GSTIN, masukkan GSTIN dan nomor PAN Anda, lalu klik Simpan.
-
-================================================================================
-File Proyek Lokal: C:\Users\DELL\portfolio-showcase
-- index.html (Halaman utama portofolio & form)
-- styles.css (Tampilan modern & responsif)
-- script.js (Logika interaktif & anti-spam)
-- projects-data.js (Tempat menambah proyek baru)
-- PANDUAN_KLIEN.md (Buku panduan klien berbahasa Indonesia)
-================================================================================
+Apakah Anda sudah ada domain sendiri atau ingin saya pandu opsi hosting cepat gratis?
