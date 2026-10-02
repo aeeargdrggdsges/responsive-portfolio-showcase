@@ -1,0 +1,73 @@
+================================================================================
+PROPOSAL FREELANCER.COM - WEBSITE PORTOFOLIO DENGAN FORMULIR KONTAK
+Project ID: 40745163 | Klien: Kabupaten Garut, Indonesia
+Repository Demo Live: https://github.com/aeeargdrggdsges/responsive-portfolio-showcase
+================================================================================
+
+--------------------------------------------------------------------------------
+BAGIAN 1: PENGATURAN BID (BID SETTINGS)
+--------------------------------------------------------------------------------
+Hourly Rate   : $5.00 USD / hour
+Weekly Limit  : 25 Hours
+Upgrades      : TIDAK PERLU dicentang (Hemat budget, proposal personal jauh lebih efektif)
+
+
+--------------------------------------------------------------------------------
+BAGIAN 2: "DESCRIBE YOUR PROPOSAL" (SALIN & TEMPEL KE KOTAK PROPOSAL)
+--------------------------------------------------------------------------------
+Halo, salam hangat!
+
+Saya siap membantu Anda membangun website portofolio yang bersih, memuat sekejap (<1 detik), responsif di semua perangkat (ponsel, tablet, desktop), serta dilengkapi formulir kontak otomatis langsung ke email pribadi Anda.
+
+Mengapa Pendekatan Ini Cocok untuk Anda:
+1. Formulir Kontak Otomatis + Anti-Spam: Terintegrasi langsung ke inbox email Anda (Gmail atau domain sendiri) dan diproteksi Honeypot agar terbebas dari spam robot tanpa biaya langganan bulanan.
+2. Sangat Mudah Menambah Proyek Baru: Disertai file data terpusat dan panduan tertulis langkah demi langkah berbahasa Indonesia, sehingga Anda bisa menambah karya baru sendiri dalam 1 menit tanpa perlu keahlian koding rumit.
+3. Cepat & Ringan: Menggunakan arsitektur Jamstack/CSS modern yang sangat ringan (atau WordPress ringkas jika Anda lebih terbiasa), dengan skor kecepatan Google maksimal.
+4. Dasar SEO & Pratinjau Sosial: Dilengkapi meta tag Google dan tampilan Open Graph rapi saat link dibagikan via WhatsApp.
+
+Tahapan Kerja dari Kickoff sampai Situs Live:
+• Hari 1: Kickoff diskusi tujuan, pengumpulan materi karya, foto, dan struktur navigasi.
+• Hari 2: Pembuatan tata letak (layout) responsif dan penyusunan galeri karya.
+• Hari 3: Integrasi formulir kontak ke email, proteksi anti-spam, dan penyiapan SEO dasar.
+• Hari 4: Pengujian di berbagai jenis layar (HP/PC), peluncuran ke domain Anda, dan penyerahan panduan pengelolaan.
+
+Estimasi Durasi: 3 – 4 hari kerja.
+
+Contoh Source Code & Struktur Siap Pakai yang Telah Saya Siapkan:
+https://github.com/aeeargdrggdsges/responsive-portfolio-showcase
+
+Boleh kita diskusikan apakah Anda sudah memiliki domain dan hosting sendiri, atau ingin saya pandu opsi hosting cepat gratis (seperti Vercel)?
+
+
+--------------------------------------------------------------------------------
+BAGIAN 3: "WHAT MAKES YOU THE BEST CANDIDATE FOR THIS PROJECT?" (SALIN & TEMPEL)
+--------------------------------------------------------------------------------
+Saya fokus memberikan hasil yang bersih, cepat diakses, dan mandiri bagi Anda. Anda tidak hanya menerima website portofolio yang elegan dan responsif, tetapi juga formulir kontak teruji anti-spam serta panduan tertulis ringkas berbahasa Indonesia agar Anda dapat menambah karya baru kapan saja tanpa ketergantungan pada developer.
+
+
+--------------------------------------------------------------------------------
+BAGIAN 4: PERTANYAAN UNTUK CLARIFICATION BOARD (BOARD DISKUSI)
+--------------------------------------------------------------------------------
+Halo! Apakah Anda sudah memiliki domain dan hosting sendiri, atau Anda ingin saya pandu untuk opsi hosting gratis berkecepatan tinggi (seperti Vercel / Netlify) yang siap pakai?
+
+
+--------------------------------------------------------------------------------
+BAGIAN 5: CARA MENGATASI BANNER GSTIN DI FREELANCER (UNTUK FREELANCER INDIA)
+--------------------------------------------------------------------------------
+1. Klik tautan "Update your GSTIN" di banner atas, atau buka menu:
+   Profile Picture -> Settings -> Tax Information.
+2. Pilih Negara: India.
+3. Jika penghasilan tahunan Anda di bawah Rs 20 Lakhs, Anda TIDAK WAJIB memiliki GST:
+   - Cukup masukkan nomor Kartu PAN Anda.
+   - Pada status registrasi GST, pilih opsi "Individual / Not Registered".
+   - Menyimpan nomor PAN akan memastikan pemotongan TDS sesuai aturan dan banner merah akan hilang.
+4. Jika sudah memiliki 15 digit GSTIN, masukkan GSTIN dan nomor PAN Anda, lalu klik Simpan.
+
+================================================================================
+File Proyek Lokal: C:\Users\DELL\portfolio-showcase
+- index.html (Halaman utama portofolio & form)
+- styles.css (Tampilan modern & responsif)
+- script.js (Logika interaktif & anti-spam)
+- projects-data.js (Tempat menambah proyek baru)
+- PANDUAN_KLIEN.md (Buku panduan klien berbahasa Indonesia)
+================================================================================
