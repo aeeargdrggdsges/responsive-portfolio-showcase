@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ====================================================================
+       PENGATURAN SEO & META TAG
+       ==================================================================== -->
+  <title>Website Portofolio Profesional & Responsif | Arya Pratama</title>
+  <meta name="description" content="Situs portofolio profesional, responsif, dan berkecepatan tinggi untuk menampilkan karya web, desain UI/UX, dan aplikasi digital dengan formulir kontak langsung." />
+  <meta name="keywords" content="portofolio, web design, website responsif, web development, UI/UX, SEO, kontak formulir, Garut, Indonesia" />
+  <meta name="author" content="Arya Pratama" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Website Portofolio Profesional & Responsif | Arya Pratama" />
+  <meta property="og:description" content="Koleksi karya desain dan pengembangan website modern dengan tampilan bersih, cepat dimuat, dan responsif di semua perangkat." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:locale" content="id_ID" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Website Portofolio Profesional & Responsif | Arya Pratama" />
+  <meta name="twitter:description" content="Koleksi karya desain dan pengembangan website modern dengan tampilan bersih, cepat dimuat, dan responsif." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans (Preconnect untuk Kecepatan Maksimal) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet Utama -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Schema.org JSON-LD Structured Data untuk Google Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Arya Pratama",
+    "jobTitle": "Web Developer & UI/UX Specialist",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kabupaten Garut",
+      "addressRegion": "Jawa Barat",
+      "addressCountry": "Indonesia"
+    },
+    "description": "Pengembang website profesional dengan spesialisasi situs portofolio responsif, optimasi kecepatan, dan formulir kontak otomatis.",
+    "knowsAbout": ["Web Development", "UI/UX Design", "SEO", "WordPress", "Webflow", "Responsive Design"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ====================================================================
+       1. HEADER & NAVIGASI
+       ==================================================================== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#beranda" class="brand" aria-label="Beranda Portofolio">
+        <span class="brand__badge">AP</span>
+        <span class="js-owner-name">Arya Pratama</span>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Navigasi Utama">
+        <ul class="nav__list">
+          <li><a href="#beranda" class="nav__link active">Beranda</a></li>
+          <li><a href="#portofolio" class="nav__link">Portofolio</a></li>
+          <li><a href="#langkah-kerja" class="nav__link">Langkah Kerja</a></li>
+          <li><a href="#keahlian" class="nav__link">Keahlian</a></li>
+          <li><a href="#kontak" class="nav__link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <!-- Tombol Ganti Tema (Dark / Light Mode) -->
+        <button class="btn-icon" id="theme-toggle-btn" aria-label="Beralih tema gelap/terang">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#kontak" class="btn btn--primary header__contact-btn">Hubungi Saya</a>
+
+        <!-- Tombol Menu Mobile -->
+        <button class="btn-icon mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Buka menu navigasi">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         2. HERO SECTION
+         ==================================================================== -->
+    <section class="hero" id="beranda">
+      <div class="container">
+        <div class="hero__status">
+          <span class="hero__status-dot"></span>
+          <span>Tersedia untuk Proyek Baru</span>
+        </div>
+
+        <h1 class="hero__title">
+          Website Portofolio <span>Bersih, Cepat,</span> & Berfungsi Maksimal.
+        </h1>
+
+        <p class="hero__subtitle js-tagline">
+          Membantu bisnis & kreator menampilkan karya terbaik mereka melalui website yang responsif, mudah dikelola, berkinerja tinggi, dan dilengkapi formulir kontak otomatis.
+        </p>
+
+        <div class="hero__cta-group">
+          <a href="#portofolio" class="btn btn--primary">
+            <span>Lihat Galeri Karya</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#kontak" class="btn btn--outline">
+            <span>Kirim Pesan Langsung</span>
+          </a>
+        </div>
+
+        <!-- Statistik Ringkas -->
+        <div class="stats-grid" id="stats-container">
+          <!-- Diisi otomatis oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. SECTION PORTOFOLIO / KARYA
+         ==================================================================== -->
+    <section class="section" id="portofolio">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Karya Terpilih</div>
+          <h2 class="section-title">Portofolio & Studi Kasus</h2>
+          <p class="section-desc">
+            Setiap proyek dirancang dengan fokus pada estetika bersih, kecepatan akses kilat, dan kemudahan navigasi bagi pengunjung.
+          </p>
+        </div>
+
+        <!-- Filter Kategori -->
+        <div class="portfolio-controls" role="tablist" aria-label="Filter kategori proyek">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua Proyek</button>
+          <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web Development</button>
+          <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">UI/UX & Branding</button>
+          <button class="filter-btn" data-filter="app" role="tab" aria-selected="false">Mobile & Web App</button>
+        </div>
+
+        <!-- Grid Proyek -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Diisi otomatis oleh JavaScript dari projects-data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. SECTION LANGKAH PENGERJAAN (KICKOFF KE LIVE)
+         ==================================================================== -->
+    <section class="section" id="langkah-kerja">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Alur Kerja Terstruktur</div>
+          <h2 class="section-title">Langkah Pengerjaan dari Kickoff Sampai Live</h2>
+          <p class="section-desc">
+            Proses transparan dan terukur untuk memastikan situs portofolio Anda selesai tepat waktu dengan kualitas terbaik.
+          </p>
+        </div>
+
+        <div class="workflow-grid">
+          <div class="workflow-card">
+            <div class="workflow-card__number">Tahap 01</div>
+            <h3 class="workflow-card__title">Kickoff & Perencanaan</h3>
+            <p class="workflow-card__desc">
+              Pengumpulan materi (karya, logo, foto profil, dan teks), penentuan skema warna, serta penetapan tujuan utama situs.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <div class="workflow-card__number">Tahap 02</div>
+            <h3 class="workflow-card__title">Desain UI & Struktur</h3>
+            <p class="workflow-card__desc">
+              Penyusunan tata letak yang bersih, proporsional, dan penyesuaian navigasi agar pengunjung betah melihat setiap karya.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <div class="workflow-card__number">Tahap 03</div>
+            <h3 class="workflow-card__title">Koding & Integrasi Form</h3>
+            <p class="workflow-card__desc">
+              Pembuatan kode responsif berstandar modern, optimasi kecepatan Core Web Vitals, dan integrasi formulir kontak langsung ke email Anda.
+            </p>
+          </div>
+
+          <div class="workflow-card">
+            <div class="workflow-card__number">Tahap 04</div>
+            <h3 class="workflow-card__title">Uji Coba, SEO & Live</h3>
+            <p class="workflow-card__desc">
+              Pengaturan dasar SEO (Google schema & meta tag), pengujian lintas perangkat (HP/Tablet/PC), peluncuran domain live, dan penyerahan panduan ringkas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. SECTION KEAHLIAN & TEKNOLOGI
+         ==================================================================== -->
+    <section class="section" id="keahlian">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Keahlian & Layanan</div>
+          <h2 class="section-title">Standar Kualitas Pembuatan Situs</h2>
+          <p class="section-desc">
+            Fokus kami adalah menghadirkan website yang tidak hanya indah secara visual, tetapi juga ringan dan mudah dioperasikan.
+          </p>
+        </div>
+
+        <div class="workflow-grid" id="skills-container">
+          <!-- Diisi otomatis oleh JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. SECTION FORMULIR KONTAK
+         ==================================================================== -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Mari Terhubung</div>
+          <h2 class="section-title">Hubungi Saya untuk Kolaborasi</h2>
+          <p class="section-desc">
+            Punya ide proyek atau ingin berdiskusi mengenai pembuatan website portofolio? Kirim pesan langsung di bawah ini.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Info Kontak -->
+          <div class="contact-info__card">
+            <h3 style="font-size: var(--fs-md); margin-bottom: 1.5rem;">Informasi Kontak Langsung</h3>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-info__label">Email Langsung</div>
+                <div class="contact-info__val">
+                  <a href="mailto:kontak.aryapratama@gmail.com" class="js-contact-email">kontak.aryapratama@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-info__label">Lokasi</div>
+                <div class="contact-info__val js-location">Garut & Bandung, Indonesia</div>
+              </div>
+            </div>
+
+            <div class="contact-info__item">
+              <div class="contact-info__icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-info__label">Respon Cepat</div>
+                <div class="contact-info__val">Senin - Sabtu (08:00 - 20:00 WIB)</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulir Kontak Berfungsi Penuh -->
+          <div class="contact-form-card">
+            <h3 style="font-size: var(--fs-md); margin-bottom: 1.25rem;">Kirim Pesan Cepat</h3>
+
+            <!-- Pesan Status Berhasil / Gagal -->
+            <div id="form-status" class="form-status" role="alert"></div>
+
+            <form id="contact-form" novalidate>
+              <!-- Proteksi Anti-Spam Honeypot (Tak kasat mata bagi manusia, menangkap bot jahat) -->
+              <input type="checkbox" name="_botcheck" class="form-honeypot" tabindex="-1" autocomplete="off" />
+
+              <div class="form-group">
+                <label for="name" class="form-label">Nama Lengkap <span class="required">*</span></label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Masukkan nama Anda" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Alamat Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="nama@email.com" required />
+                <div class="form-helper">Pesan balasan akan dikirimkan ke email ini.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Topik / Subjek Proyek</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Contoh: Pembuatan Website Portofolio" />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Pesan Anda <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Jelaskan kebutuhan website Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary" id="form-submit-btn" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span>Kirim Pesan Sekarang</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====================================================================
+       7. MODAL DETAIL PROYEK
+       ==================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <img id="modal-img" class="modal-image" src="" alt="Pratinjau Proyek" />
+        <button class="modal-close" id="modal-close-btn" aria-label="Tutup pratinjau proyek">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-category" id="modal-category">Kategori</div>
+        <h3 class="modal-title" id="modal-title">Judul Proyek</h3>
+        
+        <div class="modal-meta-grid">
+          <div class="modal-meta-item">
+            <strong>Klien / Perusahaan:</strong>
+            <span id="modal-client">-</span>
+          </div>
+          <div class="modal-meta-item">
+            <strong>Tahun Pengerjaan:</strong>
+            <span id="modal-year">-</span>
+          </div>
+        </div>
+
+        <p class="modal-description" id="modal-description">Deskripsi lengkap proyek akan muncul di sini.</p>
+
+        <div class="modal-footer">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn--primary" id="modal-demo-btn">
+            <span>Kunjungi Situs Live</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       8. FOOTER
+       ==================================================================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__copy">
+        &copy; 2026 <span class="js-owner-name">Arya Pratama</span>. Hak Cipta Dilindungi. Dirancang untuk Performa & Aksesibilitas.
+      </div>
+      <ul class="footer__links">
+        <li><a href="#beranda" class="footer__link">Beranda</a></li>
+        <li><a href="#portofolio" class="footer__link">Portofolio</a></li>
+        <li><a href="#langkah-kerja" class="footer__link">Langkah Kerja</a></li>
+        <li><a href="#kontak" class="footer__link">Kontak</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Script Data Proyek & Logika -->
+  <script src="projects-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
