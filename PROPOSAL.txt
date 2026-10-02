@@ -8,7 +8,7 @@ Repository : https://github.com/aeeargdrggdsges/responsive-portfolio-showcase
 --------------------------------------------------------------------------------
 BAGIAN 1: PENGATURAN BID (BID SETTINGS)
 --------------------------------------------------------------------------------
-Hourly Rate   : $5.00 USD / hour
+Hourly Rate   : $3.00 USD / hour  (Paid to you: $3.00 - $0.30 fee = $2.70)
 Weekly Limit  : 25 Hours
 Upgrades      : TIDAK PERLU dicentang (Hemat budget, proposal personal jauh lebih efektif)
 
